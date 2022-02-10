@@ -1,0 +1,35 @@
+.calculadora{
+    width: 165px;
+    height: 233px;
+    background-color: rgb(182, 180, 180);
+    border: #000 2px solid;
+    border-radius: 11px;
+}
+.calculadora input{
+    position: relative;
+    right: 5px;
+    top: 4px;
+    padding: 0%;
+    margin-left: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: right;
+    border-radius: 5px;
+}
+#calc{
+    position: relative;
+    top: 5px;
+    left: 6px;
+}
+.numero button{
+    width: 35px;
+    height: 35px;
+}
+.numero-igual button{
+    width: 35px;
+    height: 70px;
+}
+.numero-zero button{
+    width: 109px;
+    height: 35px;
+}
