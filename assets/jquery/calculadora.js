@@ -1,18 +1,18 @@
 $(function(){
     let campo="";
     let resultado=0;
-    let texto;
+    let valor;
     $("button").on("click",function(){
-        texto = $(this).data("calc");
-        if(texto == "="){
+        valor = $(this).data("calc");
+        if(valor == "="){
             resultado = eval(campo);
             $("input").attr("value", resultado);
             campo = "";
-        }else if(texto == "AC"){
+        }else if(valor == "AC"){
             campo = "";
             $("input").attr("value", campo);  
         }else{
-            campo = campo + texto.toString();
+            campo = campo + valor;
             $("input").attr("value", campo);
         }
     });
