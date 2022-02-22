@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Calculator";
+    src: url("../fonts/Calculator.ttf");
+    font-size: 1em;
+}
 .calculadora{
     width: 165px;
     height: 233px;
@@ -6,6 +11,9 @@
     border-radius: 11px;
 }
 .calculadora input{
+    font-family: "Calculator";
+    font-size: 19px;
+    font-weight: bold;
     position: relative;
     right: 5px;
     top: 4px;
@@ -32,4 +40,19 @@
 .numero-zero button{
     width: 109px;
     height: 35px;
+}
+.btn{
+    font-size: medium;
+}
+.btn.btn-danger{
+    padding: 0;
+}
+.container{
+    align-items: center;
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000 ;
+    margin-left: 7px;
+    
 }

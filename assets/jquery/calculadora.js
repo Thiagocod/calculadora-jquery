@@ -7,7 +7,7 @@ $(function(){
         if(valor == "="){
             resultado = eval(campo);
             $("input").attr("value", resultado);
-            campo = "";
+            campo = resultado;
         }else if(valor == "AC"){
             campo = "";
             $("input").attr("value", campo);  
